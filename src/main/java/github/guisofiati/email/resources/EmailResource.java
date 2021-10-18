@@ -14,7 +14,6 @@ import github.guisofiati.email.services.EmailService;
 @RequestMapping(value = "/emails")
 public class EmailResource {
 	
-	
 	@Autowired
 	private EmailService service;
 	
